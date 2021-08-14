@@ -7,3 +7,10 @@ before_install:
 script:
   - docker run aamrr/docker-react npm run test -- --coverage  
 
+deploy:
+  provider: azure_web_apps
+  username: $AZURE_WA_USERNAME       
+  password: $AZURE_WA_PASSWORD   
+  site: $AZURE_WA_SITE       
+  verbose: true
+  on: master
