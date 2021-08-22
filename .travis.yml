@@ -10,6 +10,6 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure: $API_KEY
+    secure: "p1ETVWLkZkJIfxZvcS7x525Y6oIbzVFqHmd+KJ1Pu+Bjptqz+rjan5n/8Xuoz2au2mLVCf3GPc3JByMVT3ygn0dwEcGL1yZvL4AyExBm2HlAoGO/OMGw6OabhDsbK2AhPwPuafPEKbnxu0bVwdaWIQxVOzlHNprtp8r7WtOWJI/7yeG3NjtifoGAPHlZZpR1JOqtISUOmYCPHbHyikOXlMMWHoY9FTPs9AStXML53OdE/M5Jcdnc7ukKO0eHAPoaxMYIuz55+Og2iVdW8U5BPD+90h2EzamUEjkTMRp5VdrreUdkHloJ2cp6qEYqIZESALZRxJUibE0K9+Z3P2UVQ17f6/buC3JbfAdd7Gmc8+P1wT4W6yV4BfypioAujdLvTBE0X3SB3+3nkbqPiK0k7LCFFSSkY4XOjw44AQz+q2DuI0UMGq2S5d+8KaSMaVoC32VGtd8eoogKK/e8+UjW10JgDZUnQjuXE3kU8KOi2q0ZKNVAMpJBjPugcAB2haZ2XzJ+rFReUA4jCb0k2dCaBodN37+J/QGW77msKEE55TjpKqU5EbZmHxnQx5P+e3hbNs5mRr0txTmo9CumAK/8em3HmTBFGB8srFcP2EsM1/Irk8G3xXyrY5I1hoindeimH7PaxhVzVDHqTg0mXr00tWyh529b1gYrP1obSFQ9cgo="
   app: dockereact
   on: master
